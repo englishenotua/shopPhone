@@ -1,7 +1,6 @@
 import './main.css'
 
 import React from 'react'
-import * as ReactDOM from 'react-dom'
 import {createRoot} from 'react-dom/client'
 import { createStore, applyMiddleware } from 'redux'
 import { createBrowserHistory } from 'history'
