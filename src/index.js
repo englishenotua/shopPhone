@@ -11,6 +11,7 @@ import { Provider } from 'react-redux'
 
 import createRootReducer from 'reducers'
 import Layout from 'containers/layout'
+import routes from 'routes'
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -26,7 +27,7 @@ const store = createStore(
 root.render(
     <Provider store={store}>
         <ConnectedRouter history={history}>
-            <Layout />
+            {routes}
         </ConnectedRouter>
     </Provider>
 )
