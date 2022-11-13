@@ -10,7 +10,6 @@ import thunk from 'redux-thunk'
 import { Provider } from 'react-redux'
 
 import createRootReducer from 'reducers'
-import Layout from 'containers/layout'
 import routes from 'routes'
 
 const container = document.getElementById('root');
