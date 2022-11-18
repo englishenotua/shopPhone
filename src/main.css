@@ -39,7 +39,10 @@
     min-height: 165px;
 }
 
-
+.beeer {
+    border-width: thick;
+    padding: 2px;
+}
 
 .book-list figure {
     position: relative;
